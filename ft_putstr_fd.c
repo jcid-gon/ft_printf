@@ -6,7 +6,7 @@
 /*   By: jcid-gon <jcid-gon@student.42urduliz.com>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/04 11:10:05 by jcid-gon          #+#    #+#             */
-/*   Updated: 2021/08/10 13:40:30 by jcid-gon         ###   ########.fr       */
+/*   Updated: 2021/08/17 11:13:41 by jcid-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_putstr_fd(char *s, int fd, int *ret)
 	int	index;
 
 	if (!s)
-		return ;
+		s = "(null)";
 	index = 0;
 	while (s[index] != '\0')
 	{
